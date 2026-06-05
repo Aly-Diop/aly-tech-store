@@ -9,6 +9,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+
   <script>
     tailwind.config = {
       theme: {
@@ -1269,6 +1273,22 @@ const Reviews = {
 };
 
 /* ══════════════════════════════════════════════════════════════════
+   FIREBASE – Initialisation
+══════════════════════════════════════════════════════════════════ */
+const firebaseConfig = {
+  apiKey: "AIzaSyBG6Iqg6j7DPTL05deCg1h-HjBoDS4Aanc",
+  authDomain: "aly-tech-store-9db09.firebaseapp.com",
+  projectId: "aly-tech-store-9db09",
+  storageBucket: "aly-tech-store-9db09.appspot.com",
+  messagingSenderId: "293621739065",
+  appId: "1:293621739065:web:a6ccc4e0b0f7ad6a3367e8",
+  measurementId: "G-G0EY11R8PV"
+};
+firebase.initializeApp(firebaseConfig);
+const _fbAuth     = firebase.auth();
+const _fbProvider = new firebase.auth.GoogleAuthProvider();
+
+/* ══════════════════════════════════════════════════════════════════
    AUTH – State manager (LocalStorage backend)
 ══════════════════════════════════════════════════════════════════ */
 function _hash(s) {
@@ -1281,11 +1301,40 @@ const Auth = {
   user: null,
 
   init() {
+    // Restore email/password session from localStorage
     try {
       const raw = localStorage.getItem('aly_session');
-      this.user = raw ? JSON.parse(raw) : null;
+      const saved = raw ? JSON.parse(raw) : null;
+      if (saved && saved.provider !== 'google') {
+        this.user = saved;
+        this._renderHeader();
+      }
     } catch { this.user = null; }
-    this._renderHeader();
+
+    // Listen for Firebase (Google) auth state changes
+    _fbAuth.onAuthStateChanged((fbUser) => {
+      if (fbUser) {
+        this.user = {
+          id:       fbUser.uid,
+          name:     fbUser.displayName || 'Utilisateur Google',
+          email:    fbUser.email,
+          provider: 'google',
+          photo:    fbUser.photoURL || null,
+        };
+        localStorage.setItem('aly_session', JSON.stringify(this.user));
+        this._renderHeader();
+      } else {
+        // Only clear if the current session was a Google session
+        const raw = localStorage.getItem('aly_session');
+        const saved = raw ? JSON.parse(raw) : null;
+        if (saved && saved.provider === 'google') {
+          this.user = null;
+          localStorage.removeItem('aly_session');
+          this._renderHeader();
+        }
+      }
+    });
+
     document.addEventListener('click', e => {
       if (!document.getElementById('user-btn').contains(e.target))
         this._closeDropdown();
@@ -1318,18 +1367,17 @@ const Auth = {
   },
 
   loginWithGoogle() {
-    const fakeEmail = `google.user@gmail.com`;
-    const users     = this._getUsers();
-    let   user      = users.find(u => u.email === fakeEmail);
-    if (!user) {
-      user = { id:'g_'+Date.now(), name:'Utilisateur Google', email:fakeEmail,
-               passwordHash:'', provider:'google', createdAt:new Date().toISOString() };
-      users.push(user);
-      localStorage.setItem('aly_users', JSON.stringify(users));
-    }
-    this._startSession(user);
-    AuthModal.close();
-    Toast.show(`✅ Connecté avec Google ! Bienvenue, ${user.name.split(' ')[0]} 👋`, 'success');
+    _fbAuth.signInWithPopup(_fbProvider)
+      .then((result) => {
+        const fbUser = result.user;
+        const firstName = (fbUser.displayName || 'toi').split(' ')[0];
+        AuthModal.close();
+        Toast.show(`✅ Connecté avec Google ! Bienvenue, ${firstName} 👋`, 'success');
+      })
+      .catch((error) => {
+        console.error('Erreur Google Sign-In :', error);
+        Toast.show('❌ Connexion Google échouée : ' + error.message, 'error');
+      });
   },
 
   submit() {
@@ -1394,11 +1442,13 @@ const Auth = {
 
   logout() {
     const first = this.user ? this.user.name.split(' ')[0] : '';
+    const wasGoogle = this.user && this.user.provider === 'google';
     this.user = null;
     localStorage.removeItem('aly_session');
     this._renderHeader();
     this._closeDropdown();
     Toast.show(`À bientôt, ${first} 👋`, 'info');
+    if (wasGoogle) _fbAuth.signOut().catch(e => console.warn('Firebase signOut:', e));
   },
 
   toggleDropdown() {
