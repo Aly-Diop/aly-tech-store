@@ -1,0 +1,435 @@
+{
+  "meta": {
+    "boutique": "AlyExpress ZIG",
+    "whatsapp": "221777950059",
+    "devise": "F CFA",
+    "version": "3.0.0",
+    "derniere_mise_a_jour": "2026-05-10"
+  },
+  "categories": [
+    { "id": "robotique", "label": "Robotique", "icon": "fa-microchip", "color": "blue" },
+    { "id": "informatique", "label": "Informatique", "icon": "fa-laptop", "color": "purple" },
+    { "id": "outillage", "label": "Outillage", "icon": "fa-tools", "color": "orange" },
+    { "id": "maison-cuisine", "label": "Maison & Cuisine", "icon": "fa-blender", "color": "red" },
+    { "id": "mode", "label": "Mode & Style", "icon": "fa-tshirt", "color": "pink" },
+    { "id": "jouets-jeux", "label": "Jouets & Jeux", "icon": "fa-gamepad", "color": "indigo" }
+  ],
+  "produits": [
+    {
+      "id": 1,
+      "nom": "GUEETON Clé USB 128 Go avec crochet métallique et câble USB OTG",
+      "prix": 4010,
+      "prix_barre": 6480,
+      "remise_pct": 32,
+      "categorie": "informatique",
+      "image_url": "https://image.made-in-china.com/365f3j00zTbcFPUyZkqo/Cl-USB-de-type-C-3-0-Disques-Flash-256GB-OTG-3-dans-1-P-n-Drive-128GB-Pendrive-16GB-Cle-USB-M-moire-64GB-Cl-USB-32GB-pour-T-l-phone-USB.webp",
+      "images_galerie": [
+        "https://image.made-in-china.com/365f3j00zTbcFPUyZkqo/Cl-USB-de-type-C-3-0-Disques-Flash-256GB-OTG-3-dans-1-P-n-Drive-128GB-Pendrive-16GB-Cle-USB-M-moire-64GB-Cl-USB-32GB-pour-T-l-phone-USB.webp",
+        "https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/52/44999/1.jpg?1955",
+        "https://m.media-amazon.com/images/I/71+gPlJRNsL._AC_UF350,350_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/61i2wQWfsFL._AC_UF350,350_QL80_.jpg"
+      ],
+      "icon_fallback": "fa-usb",
+      "icon_couleur": "text-blue-500",
+      "description_courte": "Stockage haute capacité 128 Go, design antichoc en métal et adaptateur OTG inclus pour smartphone.",
+      "description_longue": "Libérez instantanément de l'espace sur votre smartphone ou votre ordinateur avec la clé USB GUEETON. Sa conception en métal brossé avec crochet intégré vous permet de l'attacher solidement à votre porte-clés pour ne jamais la perdre. Grâce au câble adaptateur OTG 3-en-1 fourni, vous pouvez transférer vos fichiers, vidéos et documents de cours directement depuis votre téléphone Android vers la clé.",
+      "badge": "En Stock à Zig",
+      "tags": ["stockage", "usb", "otg", "gueeton", "informatique"],
+      "stock": true,
+      "etoiles": 5.0,
+      "nb_avis": 15,
+      "flash_deal": true,
+      "specs": [
+        { "label": "Marque", "valeur": "GUEETON" },
+        { "label": "Capacité", "valeur": "128 Go" },
+        { "label": "Interface", "valeur": "USB 3.0 (Haute vitesse)" },
+        { "label": "Matériau", "valeur": "Alliage de zinc métallique" },
+        { "label": "Fonction OTG", "valeur": "Oui (Câble adaptateur inclus)" }
+      ],
+      "avis": [
+        { "client": "Abdoulaye D.", "note": 5, "commentaire": "Parfait pour mes projets à l'UCAO. L'adaptateur OTG est solide.", "date": "2026-04-15", "achat_verifie": true },
+        { "client": "Mariama S.", "note": 4, "commentaire": "Livraison rapide à Ziguinchor. Je recommande !", "date": "2026-04-20", "achat_verifie": true }
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "Coupe-Frites Professionnel en Acier Inoxydable - Double Lame (9mm & 12mm)",
+      "prix": 6310,
+      "prix_barre": 8980,
+      "remise_pct": 25,
+      "categorie": "maison-cuisine",
+      "image_url": "https://m.media-amazon.com/images/I/514i3wAhuvS.jpg",
+      "images_galerie": [
+        "https://m.media-amazon.com/images/I/514i3wAhuvS.jpg",
+        "https://ae01.alicdn.com/kf/Sd1768737fb654ce19e8dee90172ac1806.jpg",
+        "https://sn.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/40/093121/2.jpg?6122"
+      ],
+      "icon_fallback": "fa-utensils",
+      "icon_couleur": "text-orange-500",
+      "description_courte": "Le moyen le plus rapide pour faire des frites maison parfaites. Robuste et efficace.",
+      "description_longue": "Ce hachoir manuel professionnel est conçu en acier inoxydable de haute qualité pour une durabilité maximale. Très simple d'utilisation pour des bâtonnets réguliers en un clin d'œil.",
+      "badge": "En Stock à Zig",
+      "tags": ["cuisine", "maison", "frites", "inox"],
+      "stock": true,
+      "etoiles": 5.0,
+      "nb_avis": 18,
+      "flash_deal": true,
+      "specs": [
+        { "label": "Matériau", "valeur": "Acier Inoxydable" },
+        { "label": "Lames", "valeur": "2 grilles incluses (9mm / 12mm)" },
+        { "label": "Entretien", "valeur": "Lavable au lave-vaisselle" }
+      ],
+      "avis": [
+        { "client": "Khady G.", "note": 5, "commentaire": "Très robuste ! On gagne un temps fou pour préparer le dîner.", "date": "2026-04-28", "achat_verifie": true },
+        { "client": "Saliou M.", "note": 4, "commentaire": "Bon outil, les lames sont bien tranchantes.", "date": "2026-05-05", "achat_verifie": true }
+      ]
+    },
+{
+      "id": 3,
+      "nom": "Étagère à Chaussures 9 Niveaux - Jusqu'à 54 Paires",
+      "prix": 16510,
+      "prix_barre": 32520,
+      "remise_pct": 25,
+      "categorie": "maison-cuisine",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_623816-MLA82577709988_032025-O.webp",
+      "images_galerie": [
+        "https://http2.mlstatic.com/D_NQ_NP_623816-MLA82577709988_032025-O.webp",
+        "https://down-br.img.susercontent.com/file/sg-11134201-8260m-mkvbbc53ln9feb",
+        "https://img.kwcdn.com/product/1e78ea3ef7/ca6ecacc-4866-4828-abc4-cdb1caca6da5_1800x1800.jpeg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp",
+        "https://image.made-in-china.com/202f0j00GQWULroqOncV/Shoe-Cabinet-Shoes-Racks-Storage-Large-Capacity-Home-Furniture-DIY-Simple-Portable-Shoe-Rack-FS-03-.webp"
+      ],
+      "icon_fallback": "fa-socks",
+      "icon_couleur": "text-orange-500",
+      "description_courte": "Optimisez votre espace avec cette grande étagère robuste à 9 niveaux pour ranger toutes vos chaussures.",
+      "description_longue": "Cette étagère à chaussures est dotée d'un cadre en métal noir renforcé, stable et durable. Ses 9 étages modulables sont parfaits pour garder votre entrée ou votre chambre parfaitement ordonnée.",
+      "badge": "En Stock à Zig",
+      "tags": ["maison", "rangement", "chaussures", "meuble"],
+      "stock": true,
+      "etoiles": 4.5,
+      "nb_avis": 2,
+      "flash_deal": false,
+      "specs": [
+        { "label": "Capacité", "valeur": "Jusqu'à 54 paires" },
+        { "label": "Structure", "valeur": "Cadre en métal noir renforcé" },
+        { "label": "Niveaux", "valeur": "9 étages modulables" },
+        { "label": "Montage", "valeur": "Facile et sans outils requis" }
+      ],
+      "avis": [
+        { "client": "Awa Diop", "note": 5, "commentaire": "Très pratique et super grand ! J'ai pu ranger toutes les chaussures de la famille. Le métal est solide.", "date": "2026-05-12", "achat_verifie": true },
+        { "client": "Moussa Sané", "note": 4, "commentaire": "Bon produit, montage rapide. Ça change la vie dans la chambre. Livraison rapide à Ziguinchor.", "date": "2026-05-28", "achat_verifie": true }
+      ]
+    },
+  {
+      "id": 4,
+      "nom": "Baskets Respirantes Hommes - Mode & Course Décontractée",
+      "prix": 11900,
+      "prix_barre": 15850,
+      "remise_pct": 25,
+      "categorie": "mode",
+ "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHo3as5WXkTvPrcZN6AzqZ9OduPgFMcrACUYAK-ZHo3dMG5PDv",
+
+      "images_galerie": [
+
+        "https://files.sophie.co.ke/2024/05/1554027347_4051_3984.webp",
+
+        "https://img4.dhresource.com/webp/m/0x0/f3/albu/jc/s/21/e8f7ce11-0c93-4db7-b5d7-9ac9e6768f40.jpg",
+
+        "https://img.ltwebstatic.com/images3_spmp/2024/07/23/0a/1721719151bbd63a3d100b507512b06196131e9527_thumbnail_750x999.webp"
+
+      ],
+      "icon_fallback": "fa-shoe-prints",
+      "icon_couleur": "text-orange-500",
+      "description_courte": "Baskets légères, confortables et ultra-respirantes, idéales pour le sport ou le style de tous les jours.",
+      "description_longue": "Ces baskets pour hommes combinent un tissu en maille hautement respirant avec une semelle souple et amortissante. Parfaites pour la course, la marche ou pour compléter un look urbain décontracté tout en restant à l'aise par temps chaud.",
+      "badge": "En Stock à Zig",
+      "tags": ["mode", "chaussures", "baskets", "sport"],
+      "stock": true,
+      "etoiles": 4.8,
+      "nb_avis": 2,
+      "flash_deal": true,
+      "specs": [
+        { "label": "Matériau", "valeur": "Maille textile respirante (Mesh)" },
+        { "label": "Semelle", "valeur": "Caoutchouc souple et antidérapant" },
+        { "label": "Style", "valeur": "Sport / Casual Décontracté" },
+        { "label": "Fermeture", "valeur": "Lacets" }
+      ],
+      "avis": [
+        { "client": "Amadou B.", "note": 5, "commentaire": "Très légères et super confortables pour marcher en ville. Le design est top !", "date": "2026-05-20", "achat_verifie": true },
+        { "client": "Ousmane S.", "note": 4, "commentaire": "Bonne qualité pour le prix. Parfait pour le quotidien, je recommande.", "date": "2026-06-02", "achat_verifie": true }
+      ]
+    },
+    {
+      "id": 5,
+      "nom": "Chaussures de Surf et Plage ALAGZI - Mode Extérieure",
+      "prix": 8900,
+      "prix_barre": 14850,
+      "remise_pct": 25,
+      "categorie": "mode",
+      "image_url": "https://images.meesho.com/images/products/662806434/3hbwg_512.jpg",
+      "images_galerie": [
+        "https://img.kwcdn.com/product/fancy/384d158d-8494-41e2-9140-0556108fa582.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp",
+        "https://http2.mlstatic.com/D_NQ_NP_923271-MLB91172437133_082025-O-sapatos-casuais-masculinos-de-altura-elevada-versatile-breat.webp",
+        "https://m.media-amazon.com/images/I/6132z392B+L._AC_UY1000_.jpg",
+        "https://m.media-amazon.com/images/I/61ktco+ZggL._AC_SY879_.jpg"
+      ],
+      "icon_fallback": "fa-water",
+      "icon_couleur": "text-orange-500",
+      "description_courte": "Chaussures aquatiques ultra-légères, antidérapantes et séchage rapide, parfaites pour la plage et les sorties décontractées.",
+      "description_longue": "Les chaussures ALAGZI sont conçues pour offrir un confort maximal aussi bien dans l'eau qu'à l'extérieur. Leur semelle en caoutchouc souple protège vos pieds tout en garantissant une excellente adhérence. Le tissu respirant permet un séchage ultra-rapide, idéal pour les activités estivales.",
+      "badge": "En Stock à Zig",
+      "tags": ["mode", "chaussures", "surf", "plage", "alagzi"],
+      "stock": true,
+      "etoiles": 4.6,
+      "nb_avis": 2,
+      "flash_deal": false,
+      "specs": [
+        { "label": "Utilisation", "valeur": "Plage, Surf, Marche décontractée" },
+        { "label": "Semelle", "valeur": "Caoutchouc antidérapant et souple" },
+        { "label": "Séchage", "valeur": "Ultra-rapide (tissu drainant)" },
+        { "label": "Couleur", "valeur": "Noir et Blanc" }
+      ],
+      "avis": [
+        { "client": "Ibrahima F.", "note": 5, "commentaire": "Franchement super confortable pour aller à la plage. On ne sent pas les coquillages ou les cailloux.", "date": "2026-05-22", "achat_verifie": true },
+        { "client": "Fatou K.", "note": 4, "commentaire": "Style sympa, taille bien et sèche très vite comme promis.", "date": "2026-06-01", "achat_verifie": true }
+      ]
+    },
+    {
+      "id": 6,
+      "nom": "Mocassins Décontractés Homme BANAGAT - Slip-ons Formels",
+      "prix": 8500,
+      "prix_barre": 13200,
+      "remise_pct": 25,
+      "categorie": "mode",
+      "image_url": "https://i.pinimg.com/736x/dc/03/e3/dc03e3194c46865e38e87507ae440989.jpg",
+      "images_galerie": [
+        "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQJ55ZkKaNO_FuYjsk1VgDDEdNXcJM__7XLZYq_qLn5l-f30LCB",
+        "https://jaguarcalcados.com/cdn/shop/files/8_b0d3f4b7-0621-44e0-b0de-c6ea11f1c058_700x.jpg?v=1727534686",
+        "https://m.media-amazon.com/images/I/61jgJy+juvL._AC_UY900_.jpg"
+      ],
+      "icon_fallback": "fa-user-tie",
+      "icon_couleur": "text-orange-500",
+      "description_courte": "Mocassins élégants et faciles à enfiler, parfaits pour le travail, les affaires et les occasions formelles.",
+      "description_longue": "Ces mocassins BANAGAT combinent à la perfection le confort d'une chaussure décontractée et l'élégance d'un soulier professionnel. Conçus avec des matériaux légers et une semelle souple, ils offrent un excellent confort pour de longues journées au bureau tout en restant faciles à enfiler grâce au système slip-on.",
+      "badge": "En Stock à Zig",
+      "tags": ["mode", "chaussures", "mocassins", "business", "banagat"],
+      "stock": true,
+      "etoiles": 4.7,
+      "nb_avis": 2,
+      "flash_deal": false,
+      "specs": [
+        { "label": "Type", "valeur": "Mocassins / Slip-ons" },
+        { "label": "Style", "valeur": "Business / Formel / Casual" },
+        { "label": "Couleur", "valeur": "Noir" },
+        { "label": "Semelle", "valeur": "Légère et antidérapante" }
+      ],
+      "avis": [
+        { "client": "Modou L.", "note": 5, "commentaire": "Très élégants et surtout hyper légers à porter. Idéal pour les réunions.", "date": "2026-05-25", "achat_verifie": true },
+        { "client": "Cheikh T.", "note": 4, "commentaire": "Bon rapport qualité-prix. Pratique pour aller travailler sans avoir mal aux pieds.", "date": "2026-06-03", "achat_verifie": true }
+      ]
+    },
+    {
+      "id": 7,
+      "nom": "Chaussures Décontractées FASHION - Tennis Loafers Black",
+      "prix": 8010,
+      "prix_barre": 10550,
+      "remise_pct": 25,
+      "categorie": "mode",
+      "image_url": "https://tech-access-dakar.com/wp-content/uploads/2025/08/img_1542.jpeg",
+      "images_galerie": [
+        "https://images.uzum.uz/d1v5kcfiub3cuo9dcr60/original.jpg",
+        "https://g-search3.alicdn.com/img/bao/uploaded/i4/i2/2206588314948/O1CN01GbSzaU1mQElwd7742_!!2206588314948-2-C2M.png",
+        "https://img.joomcdn.net/1e1b4bd522a372208696d4c6c9aa10f6fce828c1_original.jpeg"
+      ],
+      "icon_fallback": "fa-shoe-prints",
+      "icon_couleur": "text-orange-500",
+      "description_courte": "Tennis de ville légères et confortables au design moderne entièrement noir, faciles à assortir au quotidien.",
+      "description_longue": "Ces baskets basses de la marque FASHION offrent un style casual épuré. Conçues avec des matériaux souples pour s'adapter à la forme du pied et une semelle amortissante, elles garantissent un confort optimal pour tes trajets quotidiens à Ziguinchor tout en restant robustes.",
+      "badge": "En Stock à Zig",
+      "tags": ["mode", "chaussures", "sneakers", "casual", "fashion"],
+      "stock": true,
+      "etoiles": 4.5,
+      "nb_avis": 2,
+      "flash_deal": false,
+      "specs": [
+        { "label": "Modèle", "valeur": "Casual Loafers / Tennis" },
+        { "label": "Couleur", "valeur": "Noir intégral" },
+        { "label": "Style", "valeur": "Urbain / Décontracté" },
+        { "label": "Semelle", "valeur": "Caoutchouc flexible" }
+      ],
+      "avis": [
+        { "client": "Abdou N.", "note": 5, "commentaire": "Franchement très légères et le design passe partout. Pour le prix, c'est une excellente affaire !", "date": "2026-05-26", "achat_verifie": true },
+        { "client": "Aminata D.", "note": 4, "commentaire": "Acheté pour mon frère, il les adore. Confortables pour marcher.", "date": "2026-06-04", "achat_verifie": true }
+      ]
+    },
+    {
+      "id": 8,
+      "nom": "Baskets Casual Modernes ALAGZI - Style Urbain Noir",
+      "prix": 8510,
+      "prix_barre": 12650,
+      "remise_pct": 25,
+      "categorie": "mode",
+      "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS3EsJoooqAZRW_8aFs-uFbLcc7RoAJHCg_oQPCu7nD5sxKgtmg",
+      "images_galerie": [
+        "https://m.media-amazon.com/images/I/71X-VPRNBgL._AC_UY300_.jpg",
+        "https://img.kwcdn.com/product/fancy/84b772a7-a7bc-4cea-b9c0-a44f8f92941b.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp",
+        "https://img.kwcdn.com/product/fancy/6590bed8-18b8-4098-805e-96a0bd5ac00a.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp"
+      ],
+      "icon_fallback": "fa-shoe-prints",
+      "icon_couleur": "text-orange-500",
+      "description_courte": "Baskets au look futuriste et dynamique, alliant confort quotidien et style streetwear affirmé.",
+      "description_longue": "Ces baskets ALAGZI se démarquent par leur design de semelle unique qui offre un excellent amorti pour la marche. Conçues avec des matériaux respirants et légers, elles sont parfaites pour le quotidien des étudiants et des jeunes actifs à Ziguinchor recherchant un style à la fois tendance et confortable.",
+      "badge": "En Stock à Zig",
+      "tags": ["mode", "chaussures", "sneakers", "streetwear", "alagzi"],
+      "stock": true,
+      "etoiles": 4.6,
+      "nb_avis": 2,
+      "flash_deal": true,
+      "specs": [
+        { "label": "Modèle", "valeur": "Sport & Streetwear" },
+        { "label": "Couleur", "valeur": "Noir avec détails" },
+        { "label": "Semelle", "valeur": "Amortissante et surélevée" },
+        { "label": "Confort", "valeur": "Doublure textile douce" }
+      ],
+      "avis": [
+        { "client": "Abdoulaye S.", "note": 5, "commentaire": "Le design de la semelle est incroyable, elles font fureur ! Très confortables.", "date": "2026-05-29", "achat_verifie": true },
+        { "client": "Mariama C.", "note": 4, "commentaire": "Reçues rapidement. Mon frère est ravi, le style correspond tout à fait aux photos.", "date": "2026-06-04", "achat_verifie": true }
+      ]
+    },
+    {
+      "id": 9,
+      "nom": "Ensemble de Sport Décontracté Deux Pièces - Mode Homme Noir",
+      "prix": 9410,
+      "prix_barre": 11350,
+      "remise_pct": 25,
+      "categorie": "mode",
+      "image_url": "https://ci.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/69/719103/4.jpg?8807",
+      "images_galerie": [
+        "https://sn.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/20/886321/1.jpg",
+        "https://sn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/20/886321/1.jpg?2186",
+        "https://sn.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/20/886321/3.jpg"
+      ],
+      "icon_fallback": "fa-tshirt",
+      "icon_couleur": "text-orange-500",
+      "description_courte": "Ensemble de sport 2 pièces léger et confortable, idéal pour les entraînements, le running ou un style urbain décontracté.",
+      "description_longue": "Cet ensemble assorti pour homme comprend un haut et un bas conçus dans un tissu respirant et extensible. Sa coupe moderne offre une totale liberté de mouvement tout en vous gardant au frais. Un indispensable du quotidien, facile à laver et qui sèche très rapidement.",
+      "badge": "En Stock à Zig",
+      "tags": ["mode", "vêtements", "ensemble", "sport", "casual"],
+      "stock": true,
+      "etoiles": 4.7,
+      "nb_avis": 2,
+      "flash_deal": false,
+      "specs": [
+        { "label": "Composants", "valeur": "Ensemble 2 Pièces (Haut + Bas)" },
+        { "label": "Couleur", "valeur": "Noir" },
+        { "label": "Matériau", "valeur": "Polyester léger et respirant" },
+        { "label": "Usage", "valeur": "Sport / Style Décontracté" }
+      ],
+      "avis": [
+        { "client": "Moustapha D.", "note": 5, "commentaire": "Tissu très agréable à porter pour le sport. La taille est parfaite et le style est super clean.", "date": "2026-05-30", "achat_verifie": true },
+        { "client": "Khadija N.", "note": 4, "commentaire": "Offert à mon cousin, il adore. Pratique pour courir ou traîner le week-end.", "date": "2026-06-03", "achat_verifie": true }
+      ]
+    },
+    {
+      "id": 10,
+      "nom": "Disque Dur Externe 500 Go - USB 3.0 Haute Vitesse Ultra-Mince",
+      "prix": 8500,
+      "prix_barre": 18550,
+      "remise_pct": 25,
+      "categorie": "informatique",
+      "image_url": "https://technet.pt/img/p/2/4/2/8/4/24284.jpg?time=1674644494232",
+      "images_galerie": [
+        "https://www.cdiscount.com/pdt2/0/5/1/3/550x550/auc6890789089051/rw/disque-dur-externe-1to-2-5-usb3-0-disque-dur-ext.jpg",
+        "https://technet.pt/img/p/2/4/2/8/4/24284.jpg?time=1674644494232",
+        "https://image.cdn.shpy.in/305289/hdd-case-slim-portable-25-hdd-enclosure-usb-20-ext-1686045810686_SKU-0095_0.jpg?width=600&format=webp"
+      ],
+      "icon_fallback": "fa-hdd",
+      "icon_couleur": "text-purple-500",
+      "description_courte": "Disque dur externe portable 500 Go portable, ultra-fin et ultra-rapide grâce à l'interface USB 3.0. Idéal pour PC et Mac.",
+      "description_longue": "Augmentez instantanément la capacité de stockage de votre ordinateur avec ce disque dur externe mobile ultra-mince. Sa connectivité USB 3.0 haute vitesse vous permet de transférer vos fichiers lourds, films, séries et documents d'étude en quelques secondes, sans avoir besoin d'une alimentation externe.",
+      "badge": "En Stock à Zig",
+      "tags": ["informatique", "stockage", "disque-dur", "hdd", "pc"],
+      "stock": true,
+      "etoiles": 4.6,
+      "nb_avis": 2,
+      "flash_deal": false,
+      "specs": [
+        { "label": "Capacité", "valeur": "500 Go" },
+        { "label": "Interface", "valeur": "USB 3.0 (compatible USB 2.0)" },
+        { "label": "Format", "valeur": "2.5 pouces (Ultra-Mince)" },
+        { "label": "Compatibilité", "valeur": "Windows / Mac / Linux / Consoles" }
+      ],
+      "avis": [
+        { "client": "Souleymane D.", "note": 5, "commentaire": "Parfait pour mes projets de programmation et mes cours à l'université. Les transferts sont rapides.", "date": "2026-05-28", "achat_verifie": true },
+        { "client": "Alassane K.", "note": 4, "commentaire": "Très compact, se glisse facilement dans le sac du laptop. Fait bien le travail.", "date": "2026-06-04", "achat_verifie": true }
+      ]
+    },
+{
+      "id": 11,
+      "nom": "Pantalon Cargo Décontracté XINBAX - Style Étudiant Ample",
+      "prix": 5500,
+      "prix_barre": 10000,
+      "remise_pct": 25,
+      "categorie": "mode",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_625663-CBT96825296889_102025-O-jogger-cargo-masculino-estilo-americano-com-varios-bolsos.webp",
+      "images_galerie": [
+        "https://http2.mlstatic.com/D_NQ_NP_647352-MLB85118637398_052025-O-calca-cargo-masculina-coreana-street-joggers-pantalone.webp",
+        "https://cdnimg.emmiol.com/E/202208/goods_img_list-VCH0345BO-3122105973.jpg",
+        "https://image.dhgate.com/webp/m/0x0/f3/albu/jc/j/19/40977f2d-f3a0-4c19-a802-85e7a4ddf7f4.jpg"
+      ],
+      "icon_fallback": "fa-tshirt",
+      "icon_couleur": "text-orange-500",
+      "description_courte": "Pantalon amples style cargo, confortable et robuste, parfait pour un look streetwear étudiant au quotidien.",
+      "description_longue": "Ce pantalon XINBAX offre une coupe ample tendance avec un serrage aux chevilles (pieds liés). Idéal pour les saisons chaudes grâce à son tissu léger et respirant, il dispose de poches pratiques et s'accorde parfaitement avec des baskets pour les journées de cours ou les sorties.",
+      "badge": "En Stock à Zig",
+      "tags": ["mode", "vêtements", "pantalon", "cargo", "streetwear"],
+      "stock": true,
+      "etoiles": 4.5,
+      "nb_avis": 2,
+      "flash_deal": false,
+      "specs": [
+        { "label": "Coupe", "valeur": "Ample / Cargo Décontracté" },
+        { "label": "Style", "valeur": "Streetwear / Étudiant" },
+        { "label": "Serrage", "valeur": "Élastique aux chevilles" },
+        { "label": "Saison", "valeur": "Printemps / Été" }
+      ],
+      "avis": [
+        { "client": "Oumar S.", "note": 5, "commentaire": "Super confortable pour aller en amphi. Le style cargo est exactement comme sur la photo.", "date": "2026-06-01", "achat_verifie": true },
+        { "client": "Astou C.", "note": 4, "commentaire": "Tissu léger et agréable, idéal pour le climat d'ici. Mon copain l'adore.", "date": "2026-06-04", "achat_verifie": true }
+      ]
+    },
+    {
+      "id": 12,
+      "nom": "Ensemble d'Organisateurs de Voyage - 7 Pièces pour Sac & Valise",
+      "prix": 14410,
+      "prix_barre": 29550,
+      "remise_pct": 25,
+      "categorie": "mode",
+      "image_url": "https://http2.mlstatic.com/D_NQ_NP_762750-MCO74896896025_032024-O.webp",
+      "images_galerie": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBczo5kd4FrA8qaI6_ygXmtP22fqqN4YKirQ&s",
+        "https://http2.mlstatic.com/D_NQ_NP_872559-CBT105691811101_012026-O.webp",
+        "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/34188777132bdcd126216cd2c7466623.jpg?imageMogr2/auto-orient|imageView2/2/w/800/q/70/format/webp"
+      ],
+      "icon_fallback": "fa-suitcase",
+      "icon_couleur": "text-orange-500",
+      "description_courte": "Set complet de 7 sacs de rangement étanches pour optimiser l'espace et organiser parfaitement votre valise.",
+      "description_longue": "Cet ensemble d'organisateurs de bagages comprend des cubes de rangement de différentes tailles pour vos vêtements, chaussures, sous-vêtements et produits de toilette. Conçus en tissu léger, durable et imperméable, ils protègent vos affaires tout en facilitant vos déplacements.",
+      "badge": "En Stock à Zig",
+      "tags": ["mode", "accessoires", "voyage", "sac", "rangement"],
+      "stock": true,
+      "etoiles": 4.6,
+      "nb_avis": 2,
+      "flash_deal": false,
+      "specs": [
+        { "label": "Nombre de pièces", "valeur": "7 Sacs organisateurs" },
+        { "label": "Matériau", "valeur": "Tissu imperméable et maille" },
+        { "label": "Utilité", "valeur": "Compression et tri des bagages" },
+        { "label": "Caractéristiques", "valeur": "Fermetures éclair robustes" }
+      ],
+      "avis": [
+        { "client": "Mariama D.", "note": 5, "commentaire": "Super pratique ! On gagne tellement de place dans la valise et tout reste bien rangé.", "date": "2026-06-02", "achat_verifie": true },
+        { "client": "Youssouph S.", "note": 4, "commentaire": "Très bon kit, léger et résistant. Parfait pour voyager sereinement.", "date": "2026-06-04", "achat_verifie": true }
+      ]
+    }
+  ]
+}
